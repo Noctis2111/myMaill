@@ -1,0 +1,80 @@
+body{
+    background-color: #F5F6FA;
+    font-family: 'open sans',sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h6{
+    font-size: 14px;
+    margin: 0px;
+}
+.trash{
+    width: 15px;
+}
+.avatar{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.row{
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+.last-row{
+    border-bottom: 1px solid #DADADA;
+}
+.new-last-row{
+    border-top: 0px;
+    border-bottom: 1px solid #DADADA;
+}
+
+#count{
+    font-weight: bold;
+}
+#addmessage{
+    width: 85%;
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    
+}
+.btn-blue{
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 15%;
+    font-family: "open sans", sans-serif;
+    color: #2EE1FF;
+    background-color: #fff;
+    border: 1px solid #2EE1FF;
+    width: 8%;
+}
+.btn-blue:focus{
+    outline: 0;
+}
+.btn-blue:hover{
+    background-color: grey;
+}
+#recherche{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-search{
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 10%;
+    font-family: "open sans", sans-serif;
+    color: #2EE1FF;
+    background-color: #fff;
+    border: 1px solid #2EE1FF;
+    
+    
+}
